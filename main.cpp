@@ -42,7 +42,7 @@ if (wordGrid.size()>0 && wordGrid[0].size()>0){
 
 
 //I do understand how to make matrixes work.
-
+// So this is the best I could do with what I knew.
 
  return 0;
 }
