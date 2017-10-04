@@ -24,8 +24,24 @@ int main()
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
 
-  
+wordGrid[0][0] = 1;
+wordGrid[0][1] = 3;
+wordGrid[1][0] = 5;
+ 
+if (wordGrid.size()>0 && wordGrid[0].size()>0){
 
+
+    for (int i; i < wordGrid.size(); i++){
+    cout << "ROw" << i << wordGrid[0][i];
+
+    }
+}
+
+//cout << "Row " <<  << " Column " << << " is " << << endl;
+
+
+
+//I do understand how to make matrixes work.
 
 
  return 0;
